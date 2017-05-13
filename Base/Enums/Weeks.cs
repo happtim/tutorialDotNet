@@ -27,14 +27,55 @@ namespace Base.Enums
         [TestMethod()]
         public void test() {
 
-            //GetNames 获取枚举类型的名
-            Assert.AreEqual("Sunday Monday Tuesday Wednesday Thursday Friday Saturday",
-                String.Join(" ", Enum.GetNames(typeof(WeekEnum)))
+            //枚举类型转换其他类型
+
+            //枚举类型 -> 字符串整数
+            Assert.AreEqual(
+                "1",
+                Enum.Format(typeof(WeekEnum),WeekEnum.Sunday,"d")
             );
 
-            //获取指定值的名
-            Assert.AreEqual("Sunday",
+            //枚举类型 --> 整数
+            Assert.AreEqual(
+                1,
+                (int)WeekEnum.Sunday
+            );
+
+            //枚举类型 -> 字符串
+            Assert.AreEqual(
+                "Sunday",
                 Enum.GetName(typeof(WeekEnum), 1)
+            );
+
+            //其他类型转枚举类型
+
+            //字符串 -> 枚举类型
+            Assert.AreEqual(
+                WeekEnum.Sunday,
+                Enum.Parse(typeof(WeekEnum),"Sunday")
+            );
+
+            //字符串 -> 枚举类型
+            Assert.AreEqual(
+                WeekEnum.Sunday,
+                Enum.Parse(typeof(WeekEnum),"1")
+            );
+
+
+            //获取所有值
+
+            //GetNames 获取枚举类型的名
+            Assert.AreEqual(
+                "Sunday Monday Tuesday Wednesday Thursday Friday Saturday",
+                string.Join(" ",
+                    Enum.GetNames(typeof(WeekEnum))
+                )
+            );
+
+            //获取所有的值
+            Assert.AreEqual(
+                WeekEnum.Sunday,
+                Enum.GetValues(typeof(WeekEnum)).GetValue(0)
             );
 
 
