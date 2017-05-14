@@ -25,9 +25,6 @@ namespace DesignPattern.Behavior.State
 
         }
 
-        [TestMethod()]
-        public void test2() {
-        }
     }
 }
 /*
