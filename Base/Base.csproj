@@ -44,11 +44,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Collections\CollectionObject.cs" />
+    <Compile Include="Collections\Generic.cs" />
     <Compile Include="Enums\Weeks.cs" />
     <Compile Include="Events\PublishEvents.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Property\AutoImplemented.cs" />
+    <Compile Include="Threads\Lock.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
