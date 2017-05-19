@@ -62,9 +62,9 @@
   <ItemGroup>
     <Compile Include="SampleOne\CityPeople.cs" />
     <Compile Include="SampleOne\CityWater.cs" />
-    <Compile Include="SampleOne\ILog.cs" />
-    <Compile Include="SampleOne\IPeople.cs" />
-    <Compile Include="SampleOne\IWaterTool.cs" />
+    <Compile Include="SampleOne\Interface\ILog.cs" />
+    <Compile Include="SampleOne\Interface\IPeople.cs" />
+    <Compile Include="SampleOne\Interface\IWaterTool.cs" />
     <Compile Include="SampleOne\ConsoleLogger.cs" />
     <Compile Include="SampleOne\LoggerPeople.cs" />
     <Compile Include="SampleOne\Main.cs" />
