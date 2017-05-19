@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern", "DesignPatt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base", "Base\Base.csproj", "{543C9D2B-5A8B-4096-88EE-B90A0B4D71ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityFramework", "UnityFramework\UnityFramework.csproj", "{7BA52E33-6639-4777-B04A-423F929616CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{543C9D2B-5A8B-4096-88EE-B90A0B4D71ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{543C9D2B-5A8B-4096-88EE-B90A0B4D71ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{543C9D2B-5A8B-4096-88EE-B90A0B4D71ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BA52E33-6639-4777-B04A-423F929616CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BA52E33-6639-4777-B04A-423F929616CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BA52E33-6639-4777-B04A-423F929616CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BA52E33-6639-4777-B04A-423F929616CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
