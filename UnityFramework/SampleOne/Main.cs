@@ -74,6 +74,28 @@ namespace UnityFramework.SampleOne
 
         }
 
+        //有一些业务模块时横切整个项目的，比如log，cache，exception，Authentication and authorization
+        //将这些横切模块翻入代码逻辑中的一种普遍方法是时用装饰模式
+        [TestMethod()]
+        public void interception() {
+            UnityContainer container = new UnityContainer();
+
+            container.RegisterType<IWaterTool, PressWater>();
+            container.RegisterType<ILogger, ConsoleLogger>();
+
+//            container.RegisterType<IPeople, ShipPeople>("ShipPeople");
+            container.RegisterType<IPeople, VillagePeople>("VillagePeople");
+
+
+            container.RegisterType<IPeople, LoggerPeople>(new InjectionConstructor(
+                new ResolvedParameter<IPeople>("VillagePeople"),
+                new ResolvedParameter<ILogger>()
+                ));
+
+            IPeople people = container.Resolve<IPeople>();
+            people.DrinkWater();
+        }
+
 
     }
 }
