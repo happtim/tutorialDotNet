@@ -32,6 +32,18 @@ namespace UnityFramework.SampleOne
             people.DrinkWater();
         }
 
+        //实例注入
+        [TestMethod()]
+        public void InstanceInject()
+        {
+            UnityContainer container = new UnityContainer();
+            IWaterTool tool = new CityWater();
+            container.RegisterInstance<IWaterTool>(tool);
+            IWaterTool tool2 = container.Resolve<IWaterTool>();
+
+            Assert.AreEqual(tool, tool2);
+        }
+
         //方法注入
         [TestMethod()]
         public void methodInject() {
