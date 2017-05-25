@@ -12,6 +12,7 @@ namespace UnityFramework.SampleOne
     [TestClass]
     public class Main
     {
+
         //构造器注入
         [TestMethod()]
         public void ConstructInject()
