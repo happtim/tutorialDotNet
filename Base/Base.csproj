@@ -49,6 +49,7 @@
     <Compile Include="Enums\Weeks.cs" />
     <Compile Include="Events\PublishEvents.cs" />
     <Compile Include="Linq\Computation.cs" />
+    <Compile Include="Linq\Convert.cs" />
     <Compile Include="Linq\GroupBy.cs" />
     <Compile Include="Linq\MaxMin.cs" />
     <Compile Include="Linq\SkipTake.cs" />

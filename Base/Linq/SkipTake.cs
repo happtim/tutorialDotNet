@@ -24,10 +24,10 @@ namespace Base.Linq
         {
             int[] array = { 1, 3, 5, 10, 20 ,7,9};
             var result = array.SkipWhile(element => element < 10);
-            //10,20,7 ,9
             foreach(var i in result)
             {
                 Console.WriteLine(i);
+                //10,20,7 ,9
             }
         }
 
