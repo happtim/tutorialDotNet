@@ -48,12 +48,16 @@
     <Compile Include="Collections\Generic.cs" />
     <Compile Include="Enums\Weeks.cs" />
     <Compile Include="Events\PublishEvents.cs" />
+    <Compile Include="Linq\Cast.cs" />
     <Compile Include="Linq\Computation.cs" />
     <Compile Include="Linq\Convert.cs" />
     <Compile Include="Linq\GroupBy.cs" />
+    <Compile Include="Linq\Join.cs" />
     <Compile Include="Linq\MaxMin.cs" />
+    <Compile Include="Linq\Parallel.cs" />
+    <Compile Include="Linq\Retrieve.cs" />
     <Compile Include="Linq\SkipTake.cs" />
-    <Compile Include="Linq\TestLinq.cs" />
+    <Compile Include="Linq\Mutate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Property\AutoImplemented.cs" />
