@@ -73,60 +73,6 @@ namespace Base.Linq
 
 
         [TestMethod]
-        //Any 判断满足集合中是否有满足条件
-        //All 判断集合所有都满足条件
-        public void testAny()
-        {
-            bool b = array.Any(a => a.Length > 10);
-            Assert.AreEqual(true, b);
-
-            b = array.All(a => a.Length > 10);
-            Assert.AreEqual(false, b);
-        }
-
-        [TestMethod]
-        //Count 返回元素个数
-        //LongCount
-        public void testCount()
-        {
-            Assert.AreEqual(array.Length, array.Count());
-        }
-
-        [TestMethod]
-        //Sum
-        //Mix
-        //Min
-        //Average
-        public void testSum() {
-
-            //字符长度总和
-            int sum = (from i in array select i.Length).Sum();
-            int min = array.Min(a => a.Length);
-            Assert.AreEqual(2, min);
-
-            int max = array.Max(a => a.Length);
-            Assert.AreEqual(12, max);
-
-            double averageLength = array.Average(a => a.Length);
-            Console.WriteLine(averageLength);
-        }
-
-
-        [TestMethod]
-        //聚合函数
-        public void testAggregate() {
-
-            int sum = (from i in array select i.Length).Aggregate((x, y) => x + y);
-            Assert.AreEqual(87, sum);
-
-            string sentence = "the quick brown fox jumps over the lazy dog";
-            string[] words = sentence.Split(' ');
-            string reversed = words.Aggregate((workingSentence, next) => next + " " + workingSentence);
-            Assert.AreEqual("dog lazy the over jumps fox brown quick the", reversed);
-
-        }
-
-        [TestMethod]
         //Cast 将集合IEnumerable转为其他类型集合IEnumerable<T>
         public void testCast()
         {
