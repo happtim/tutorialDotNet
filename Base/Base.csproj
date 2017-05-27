@@ -56,6 +56,7 @@
     <Compile Include="Linq\MaxMin.cs" />
     <Compile Include="Linq\Parallel.cs" />
     <Compile Include="Linq\Retrieve.cs" />
+    <Compile Include="Linq\Select.cs" />
     <Compile Include="Linq\SkipTake.cs" />
     <Compile Include="Linq\Mutate.cs" />
     <Compile Include="Program.cs" />
