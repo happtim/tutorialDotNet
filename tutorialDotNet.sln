@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base", "Base\Base.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityFramework", "UnityFramework\UnityFramework.csproj", "{7BA52E33-6639-4777-B04A-423F929616CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newtonsoft", "Newtonsoft\Newtonsoft.csproj", "{BD17C973-F3A3-46F8-8B83-F63F94B976C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7BA52E33-6639-4777-B04A-423F929616CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BA52E33-6639-4777-B04A-423F929616CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BA52E33-6639-4777-B04A-423F929616CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD17C973-F3A3-46F8-8B83-F63F94B976C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD17C973-F3A3-46F8-8B83-F63F94B976C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD17C973-F3A3-46F8-8B83-F63F94B976C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD17C973-F3A3-46F8-8B83-F63F94B976C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
