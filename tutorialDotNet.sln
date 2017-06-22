@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityFramework", "UnityFram
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newtonsoft", "Newtonsoft\Newtonsoft.csproj", "{BD17C973-F3A3-46F8-8B83-F63F94B976C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Net", "Log4Net\Log4Net.csproj", "{09D39F8A-852B-4A29-9272-BD08A225A4C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{BD17C973-F3A3-46F8-8B83-F63F94B976C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD17C973-F3A3-46F8-8B83-F63F94B976C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD17C973-F3A3-46F8-8B83-F63F94B976C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09D39F8A-852B-4A29-9272-BD08A225A4C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D39F8A-852B-4A29-9272-BD08A225A4C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D39F8A-852B-4A29-9272-BD08A225A4C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D39F8A-852B-4A29-9272-BD08A225A4C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
