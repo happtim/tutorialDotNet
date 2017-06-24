@@ -30,5 +30,6 @@ namespace Log4Net.XmlConfig
             log.Info("Exiting application.");
 
         }
+
     }
 }
