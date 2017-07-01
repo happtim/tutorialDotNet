@@ -48,6 +48,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppConfig\AppConfigTest.cs" />
+    <Compile Include="AttributeConfig\AttributeConfigTest.cs" />
     <Compile Include="BasicConfiguration.cs" />
     <Compile Include="Com\Bar.cs" />
     <Compile Include="Program.cs" />
@@ -56,6 +58,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="AttributeConfig\App1.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
