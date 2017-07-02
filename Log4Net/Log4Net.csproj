@@ -52,6 +52,7 @@
     <Compile Include="AttributeConfig\AttributeConfigTest.cs" />
     <Compile Include="BasicConfiguration.cs" />
     <Compile Include="Com\Bar.cs" />
+    <Compile Include="Contexts\ContextTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XmlConfig\XmlConfigTest.cs" />
