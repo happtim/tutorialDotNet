@@ -16,6 +16,7 @@ namespace Base.Linq
         {
             int[] array = { 1, 3, 5, 7, 9, 11 };
             Assert.AreEqual(5, array.Skip(2).ElementAt(0)); //5,7,9,11
+            Assert.AreEqual(1,array.Skip(-1).ElementAt(0));
         }
 
         [TestMethod]

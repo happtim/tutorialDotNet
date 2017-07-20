@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Collections\CollectionObject.cs" />
     <Compile Include="Collections\Generic.cs" />
+    <Compile Include="Collections\ListTest.cs" />
     <Compile Include="Enums\Weeks.cs" />
     <Compile Include="Events\PublishEvents.cs" />
     <Compile Include="Linq\Cast.cs" />
