@@ -51,6 +51,7 @@
     <Compile Include="Equals\ObjectEqualsTest.cs" />
     <Compile Include="Equals\People.cs" />
     <Compile Include="Events\PublishEvents.cs" />
+    <Compile Include="Generics\ListTest.cs" />
     <Compile Include="Generics\OperatorEqual.cs" />
     <Compile Include="Keywords\LockTest.cs" />
     <Compile Include="Linq\All.cs" />
