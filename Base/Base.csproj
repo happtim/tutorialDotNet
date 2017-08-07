@@ -48,7 +48,12 @@
     <Compile Include="Collections\Generic.cs" />
     <Compile Include="Collections\ListTest.cs" />
     <Compile Include="Enums\Weeks.cs" />
+    <Compile Include="Equals\ObjectEqualsTest.cs" />
+    <Compile Include="Equals\People.cs" />
     <Compile Include="Events\PublishEvents.cs" />
+    <Compile Include="Generics\OperatorEqual.cs" />
+    <Compile Include="Keywords\LockTest.cs" />
+    <Compile Include="Linq\All.cs" />
     <Compile Include="Linq\Cast.cs" />
     <Compile Include="Linq\Computation.cs" />
     <Compile Include="Linq\Convert.cs" />
@@ -60,6 +65,7 @@
     <Compile Include="Linq\Select.cs" />
     <Compile Include="Linq\SkipTake.cs" />
     <Compile Include="Linq\Mutate.cs" />
+    <Compile Include="Objects\TestNullEquals.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Property\AutoImplemented.cs" />

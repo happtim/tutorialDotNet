@@ -8,8 +8,10 @@ namespace Base
 {
     class Program
     {
-        static void Main(string[] args)
-        {
+        static void Main(string[] args) {
+
+            Keywords.LockTest lockTest = new Keywords.LockTest();
+            lockTest.testLock();
         }
     }
 }
