@@ -27,12 +27,18 @@ namespace Base.Enums
         [TestMethod()]
         public void test() {
 
+            WeekEnum sunday = WeekEnum.Sunday;
             //枚举类型转换其他类型
 
             //枚举类型 -> 字符串整数
             Assert.AreEqual(
                 "1",
                 Enum.Format(typeof(WeekEnum),WeekEnum.Sunday,"d")
+            );
+
+            Assert.AreEqual(
+                "1",
+                sunday.ToString("D")
             );
 
             //枚举类型 --> 整数
@@ -44,7 +50,12 @@ namespace Base.Enums
             //枚举类型 -> 字符串
             Assert.AreEqual(
                 "Sunday",
-                Enum.GetName(typeof(WeekEnum), 1)
+                Enum.GetName(typeof(WeekEnum), sunday)
+            );
+
+            Assert.AreEqual(
+                "Sunday",
+                sunday.ToString()
             );
 
             //其他类型转枚举类型

@@ -76,10 +76,13 @@ namespace Base.Generics
             throw new NotImplementedException();
         }
 
-        //在泛型里面只能知道自己是Animal .不能获取到集成类的信息
         public T GetFirst() {
             String name = Animals.First().Name;
             return Animals.First();
+        }
+
+        public String GetFirstName() {
+            return Animals.First().Name;
         }
     }
 
@@ -98,6 +101,8 @@ namespace Base.Generics
             };
 
             Assert.AreEqual(Fishes.GetFirst().Name, "Tim");
+            //在泛型里面只能知道自己是Animal .不能获取到集成类的信息
+            Assert.AreEqual(Fishes.GetFirstName(), null);
 
         }
     }
