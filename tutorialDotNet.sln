@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Net", "Log4Net\Log4Net.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectMapper", "AutoMapper\ObjectMapper.csproj", "{20DF1DA1-8272-46FC-BD5C-B54A00A0D349}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacIOC", "AutoFac\AutofacIOC.csproj", "{5686D1A3-3E7D-4B50-BCD6-05594352763F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{20DF1DA1-8272-46FC-BD5C-B54A00A0D349}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20DF1DA1-8272-46FC-BD5C-B54A00A0D349}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20DF1DA1-8272-46FC-BD5C-B54A00A0D349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5686D1A3-3E7D-4B50-BCD6-05594352763F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5686D1A3-3E7D-4B50-BCD6-05594352763F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5686D1A3-3E7D-4B50-BCD6-05594352763F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5686D1A3-3E7D-4B50-BCD6-05594352763F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

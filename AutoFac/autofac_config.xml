@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<autofac defaultAssembly="AutofacIOC" >
+  <components name="0">
+    <type>AutofacIOC.Comm.ConfigReader,AutofacIOC</type>
+    <services name="0" type="AutofacIOC.Comm.IConfigReader,AutofacIOC" />
+    <injectProperties>true</injectProperties>
+    <parameters>
+      <configSectionName>Setting1</configSectionName>
+    </parameters>
+  </components>
+</autofac>
