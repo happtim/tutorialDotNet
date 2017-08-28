@@ -40,8 +40,8 @@ namespace AutofacIOC.Registration
             // Now you can resolve services using Autofac. For example,
             // this line will execute the lambda expression registered
             // to the IConfigReader service.
-            using (var scope = container.BeginLifetimeScope())
-            {
+            using (var scope = container.BeginLifetimeScope()) {
+
                 var reader = container.Resolve<IConfigReader>();
                 string something = reader.read();
                 Assert.AreEqual("May 5, 2014", something);

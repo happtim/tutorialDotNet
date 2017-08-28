@@ -36,6 +36,9 @@ namespace AutofacIOC.Configration
 
             using(var scope = container.BeginLifetimeScope()) {
                 var reader = container.Resolve<IConfigReader>();
+//                  var reader = container.ResolveNamed<IConfigReader>("0");
+//                var reader = container.ResolveKeyed<IConfigReader>("key1");
+
                 string something = reader.read();
                 Assert.AreEqual("May 5, 2014", something);
             }

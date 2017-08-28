@@ -2,7 +2,7 @@
 <autofac defaultAssembly="AutofacIOC" >
   <components name="0">
     <type>AutofacIOC.Comm.ConfigReader,AutofacIOC</type>
-    <services name="0" type="AutofacIOC.Comm.IConfigReader,AutofacIOC" />
+    <services name="0" type="AutofacIOC.Comm.IConfigReader,AutofacIOC" key="key1" />
     <injectProperties>true</injectProperties>
     <parameters>
       <configSectionName>Setting1</configSectionName>
