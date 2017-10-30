@@ -57,6 +57,13 @@
     <Compile Include="Behavior\Template\CurrentAccount.cs" />
     <Compile Include="Behavior\Template\SavingAccount.cs" />
     <Compile Include="Behavior\Template\Test.cs" />
+    <Compile Include="Create\FactoryMethod\ConcreteFactory\DatabaseFactory.cs" />
+    <Compile Include="Create\FactoryMethod\ConcreteFactory\FileFactory.cs" />
+    <Compile Include="Create\FactoryMethod\ConcreteLogger\DatabaseLogger.cs" />
+    <Compile Include="Create\FactoryMethod\ConcreteLogger\FileLogger.cs" />
+    <Compile Include="Create\FactoryMethod\Framework\Logger.cs" />
+    <Compile Include="Create\FactoryMethod\Framework\LoggerFactory.cs" />
+    <Compile Include="Create\FactoryMethod\Test.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
