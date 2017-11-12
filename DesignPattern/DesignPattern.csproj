@@ -47,23 +47,39 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Behavior\State\SundayState.cs" />
-    <Compile Include="Behavior\State\MondayState.cs" />
-    <Compile Include="Behavior\State\Context.cs" />
-    <Compile Include="Behavior\State\State.cs" />
-    <Compile Include="Behavior\State\Test.cs" />
-    <Compile Include="Behavior\State\WeekEnum.cs" />
-    <Compile Include="Behavior\Template\Account.cs" />
-    <Compile Include="Behavior\Template\CurrentAccount.cs" />
-    <Compile Include="Behavior\Template\SavingAccount.cs" />
-    <Compile Include="Behavior\Template\Test.cs" />
-    <Compile Include="Create\FactoryMethod\ConcreteFactory\DatabaseFactory.cs" />
-    <Compile Include="Create\FactoryMethod\ConcreteFactory\FileFactory.cs" />
-    <Compile Include="Create\FactoryMethod\ConcreteLogger\DatabaseLogger.cs" />
-    <Compile Include="Create\FactoryMethod\ConcreteLogger\FileLogger.cs" />
-    <Compile Include="Create\FactoryMethod\Framework\Logger.cs" />
-    <Compile Include="Create\FactoryMethod\Framework\LoggerFactory.cs" />
-    <Compile Include="Create\FactoryMethod\Test.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\06-Adapter %28适配器模式%29\Practical\ClassAdapter\Banner.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\06-Adapter %28适配器模式%29\Practical\ClassAdapter\Client.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\06-Adapter %28适配器模式%29\Practical\ClassAdapter\Print.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\06-Adapter %28适配器模式%29\Practical\ClassAdapter\PrintBanner.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\06-Adapter %28适配器模式%29\Practical\ObjectAdapter\Adapter.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\06-Adapter %28适配器模式%29\Practical\ObjectAdapter\Client.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\06-Adapter %28适配器模式%29\Practical\ObjectAdapter\Power12V.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\06-Adapter %28适配器模式%29\Practical\ObjectAdapter\Power220V.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\06-Adapter %28适配器模式%29\Structural\ClassAdapter\Adaptee.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\06-Adapter %28适配器模式%29\Structural\ClassAdapter\Adapter.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\06-Adapter %28适配器模式%29\Structural\ClassAdapter\Client.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\06-Adapter %28适配器模式%29\Structural\ClassAdapter\ITarget.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\06-Adapter %28适配器模式%29\Structural\ObjectAdapter\Adaptee.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\06-Adapter %28适配器模式%29\Structural\ObjectAdapter\Adapter.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\06-Adapter %28适配器模式%29\Structural\ObjectAdapter\Client.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\06-Adapter %28适配器模式%29\Structural\ObjectAdapter\Target.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\20-State %28状态模式%29\SundayState.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\20-State %28状态模式%29\MondayState.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\20-State %28状态模式%29\Context.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\20-State %28状态模式%29\State.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\20-State %28状态模式%29\Test.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\20-State %28状态模式%29\WeekEnum.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\22-Template Method %28模板方法模式%29\Account.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\22-Template Method %28模板方法模式%29\CurrentAccount.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\22-Template Method %28模板方法模式%29\SavingAccount.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\22-Template Method %28模板方法模式%29\Test.cs" />
+    <Compile Include="1-Creational Patterns %28创建型模式%29\FactoryMethod\ConcreteFactory\DatabaseFactory.cs" />
+    <Compile Include="1-Creational Patterns %28创建型模式%29\FactoryMethod\ConcreteFactory\FileFactory.cs" />
+    <Compile Include="1-Creational Patterns %28创建型模式%29\FactoryMethod\ConcreteLogger\DatabaseLogger.cs" />
+    <Compile Include="1-Creational Patterns %28创建型模式%29\FactoryMethod\ConcreteLogger\FileLogger.cs" />
+    <Compile Include="1-Creational Patterns %28创建型模式%29\FactoryMethod\Framework\Logger.cs" />
+    <Compile Include="1-Creational Patterns %28创建型模式%29\FactoryMethod\Framework\LoggerFactory.cs" />
+    <Compile Include="1-Creational Patterns %28创建型模式%29\FactoryMethod\Test.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -73,7 +89,23 @@
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="2-Structural Patterns %28结构型模式%29\07-Bridge %28桥接模式%29\" />
+    <Folder Include="2-Structural Patterns %28结构型模式%29\08-Composite %28组合模式%29\" />
+    <Folder Include="2-Structural Patterns %28结构型模式%29\09-Decorator %28装饰模式%29\" />
+    <Folder Include="2-Structural Patterns %28结构型模式%29\10-Facade %28外观模式%29\" />
+    <Folder Include="2-Structural Patterns %28结构型模式%29\11-Flyweight %28享元模式%29\" />
+    <Folder Include="2-Structural Patterns %28结构型模式%29\12-Proxy %28代理模式%29\" />
+    <Folder Include="3-Behavioral Patterns %28行为型模式%29\13-Chain of Responsibility %28职责链模式%29\" />
+    <Folder Include="3-Behavioral Patterns %28行为型模式%29\14-Command %28命令模式%29\" />
+    <Folder Include="3-Behavioral Patterns %28行为型模式%29\15-Interpreter %28解释器模式%29\" />
+    <Folder Include="3-Behavioral Patterns %28行为型模式%29\16-Iterator %28迭代器模式%29\" />
+    <Folder Include="3-Behavioral Patterns %28行为型模式%29\17-Mediator %28中介者模式%29\" />
+    <Folder Include="3-Behavioral Patterns %28行为型模式%29\18-Memento %28备忘录模式%29\" />
+    <Folder Include="3-Behavioral Patterns %28行为型模式%29\19-Observer %28观察者模式%29\" />
+    <Folder Include="3-Behavioral Patterns %28行为型模式%29\21-Strategy %28策略模式%29\" />
+    <Folder Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.Sql.UnitTesting.targets" Condition="'$(SQLDBExtensionsRefPath)' != ''" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.Sql.UnitTesting.targets" Condition="'$(SQLDBExtensionsRefPath)' == ''" />
