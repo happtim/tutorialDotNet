@@ -74,6 +74,14 @@
     <Compile Include="2-Structural Patterns %28结构型模式%29\09-Decorator %28装饰模式%29\Structural\ConcreteComponent.cs" />
     <Compile Include="2-Structural Patterns %28结构型模式%29\09-Decorator %28装饰模式%29\Structural\ConcreteDecorator.cs" />
     <Compile Include="2-Structural Patterns %28结构型模式%29\09-Decorator %28装饰模式%29\Structural\Decorator.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\12-Proxy %28代理模式%29\Practical\Client.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\12-Proxy %28代理模式%29\Practical\Printable.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\12-Proxy %28代理模式%29\Practical\Printer.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\12-Proxy %28代理模式%29\Practical\PrinterProxy.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\12-Proxy %28代理模式%29\Structural\Client.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\12-Proxy %28代理模式%29\Structural\Proxy.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\12-Proxy %28代理模式%29\Structural\RealSubject.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\12-Proxy %28代理模式%29\Structural\Subject.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\20-State %28状态模式%29\SundayState.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\20-State %28状态模式%29\MondayState.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\20-State %28状态模式%29\Context.cs" />
@@ -109,7 +117,6 @@
     <Folder Include="2-Structural Patterns %28结构型模式%29\08-Composite %28组合模式%29\" />
     <Folder Include="2-Structural Patterns %28结构型模式%29\10-Facade %28外观模式%29\" />
     <Folder Include="2-Structural Patterns %28结构型模式%29\11-Flyweight %28享元模式%29\" />
-    <Folder Include="2-Structural Patterns %28结构型模式%29\12-Proxy %28代理模式%29\" />
     <Folder Include="3-Behavioral Patterns %28行为型模式%29\13-Chain of Responsibility %28职责链模式%29\" />
     <Folder Include="3-Behavioral Patterns %28行为型模式%29\14-Command %28命令模式%29\" />
     <Folder Include="3-Behavioral Patterns %28行为型模式%29\15-Interpreter %28解释器模式%29\" />
