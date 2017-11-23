@@ -74,6 +74,9 @@
     <Compile Include="2-Structural Patterns %28结构型模式%29\09-Decorator %28装饰模式%29\Structural\ConcreteComponent.cs" />
     <Compile Include="2-Structural Patterns %28结构型模式%29\09-Decorator %28装饰模式%29\Structural\ConcreteDecorator.cs" />
     <Compile Include="2-Structural Patterns %28结构型模式%29\09-Decorator %28装饰模式%29\Structural\Decorator.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\10-Facade %28外观模式%29\Structural\Client.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\10-Facade %28外观模式%29\Structural\Facade.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\10-Facade %28外观模式%29\Structural\SubSystem.cs" />
     <Compile Include="2-Structural Patterns %28结构型模式%29\12-Proxy %28代理模式%29\Practical\Client.cs" />
     <Compile Include="2-Structural Patterns %28结构型模式%29\12-Proxy %28代理模式%29\Practical\Printable.cs" />
     <Compile Include="2-Structural Patterns %28结构型模式%29\12-Proxy %28代理模式%29\Practical\Printer.cs" />
@@ -115,7 +118,6 @@
     <Folder Include="1-Creational Patterns %28创建型模式%29\05-Singleton %28单件模式%29\" />
     <Folder Include="2-Structural Patterns %28结构型模式%29\07-Bridge %28桥接模式%29\" />
     <Folder Include="2-Structural Patterns %28结构型模式%29\08-Composite %28组合模式%29\" />
-    <Folder Include="2-Structural Patterns %28结构型模式%29\10-Facade %28外观模式%29\" />
     <Folder Include="2-Structural Patterns %28结构型模式%29\11-Flyweight %28享元模式%29\" />
     <Folder Include="3-Behavioral Patterns %28行为型模式%29\13-Chain of Responsibility %28职责链模式%29\" />
     <Folder Include="3-Behavioral Patterns %28行为型模式%29\14-Command %28命令模式%29\" />
