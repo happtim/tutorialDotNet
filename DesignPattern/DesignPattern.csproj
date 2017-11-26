@@ -92,6 +92,18 @@
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\17-Mediator %28中介者模式%29\Structural\ConcreteColleague3.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\17-Mediator %28中介者模式%29\Structural\ConcreteMediator.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\17-Mediator %28中介者模式%29\Structural\Mediator.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\19-Observer %28观察者模式%29\Practical\Client.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\19-Observer %28观察者模式%29\Practical\DigitObserver.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\19-Observer %28观察者模式%29\Practical\GraphObserver.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\19-Observer %28观察者模式%29\Practical\RandomNumberGenerator.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\19-Observer %28观察者模式%29\Practical\NumberGenerator.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\19-Observer %28观察者模式%29\Practical\Observer.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\19-Observer %28观察者模式%29\Structural\Client.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\19-Observer %28观察者模式%29\Structural\ConcreteObserver2.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\19-Observer %28观察者模式%29\Structural\ConcreteObserver.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\19-Observer %28观察者模式%29\Structural\ConcreteSubject.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\19-Observer %28观察者模式%29\Structural\Observer.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\19-Observer %28观察者模式%29\Structural\Subject.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\20-State %28状态模式%29\SundayState.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\20-State %28状态模式%29\MondayState.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\20-State %28状态模式%29\Context.cs" />
@@ -131,7 +143,6 @@
     <Folder Include="3-Behavioral Patterns %28行为型模式%29\15-Interpreter %28解释器模式%29\" />
     <Folder Include="3-Behavioral Patterns %28行为型模式%29\16-Iterator %28迭代器模式%29\" />
     <Folder Include="3-Behavioral Patterns %28行为型模式%29\18-Memento %28备忘录模式%29\" />
-    <Folder Include="3-Behavioral Patterns %28行为型模式%29\19-Observer %28观察者模式%29\" />
     <Folder Include="3-Behavioral Patterns %28行为型模式%29\21-Strategy %28策略模式%29\" />
     <Folder Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\" />
   </ItemGroup>
