@@ -85,6 +85,12 @@
     <Compile Include="2-Structural Patterns %28结构型模式%29\12-Proxy %28代理模式%29\Structural\Proxy.cs" />
     <Compile Include="2-Structural Patterns %28结构型模式%29\12-Proxy %28代理模式%29\Structural\RealSubject.cs" />
     <Compile Include="2-Structural Patterns %28结构型模式%29\12-Proxy %28代理模式%29\Structural\Subject.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\14-Command %28命令模式%29\Practical\Client.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\14-Command %28命令模式%29\Practical\Drawable.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\14-Command %28命令模式%29\Practical\Command.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\14-Command %28命令模式%29\Practical\DrawCommand.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\14-Command %28命令模式%29\Practical\DrawConsole.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\14-Command %28命令模式%29\Practical\MacroCommand.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\14-Command %28命令模式%29\Structural\Client.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\14-Command %28命令模式%29\Structural\Command.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\14-Command %28命令模式%29\Structural\ConcreteCommand.cs" />
