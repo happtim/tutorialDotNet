@@ -85,6 +85,17 @@
     <Compile Include="2-Structural Patterns %28结构型模式%29\12-Proxy %28代理模式%29\Structural\Proxy.cs" />
     <Compile Include="2-Structural Patterns %28结构型模式%29\12-Proxy %28代理模式%29\Structural\RealSubject.cs" />
     <Compile Include="2-Structural Patterns %28结构型模式%29\12-Proxy %28代理模式%29\Structural\Subject.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\13-Chain of Responsibility %28职责链模式%29\Practical\Client.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\13-Chain of Responsibility %28职责链模式%29\Practical\LimitSupport.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\13-Chain of Responsibility %28职责链模式%29\Practical\NoSupport.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\13-Chain of Responsibility %28职责链模式%29\Practical\OddSupport.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\13-Chain of Responsibility %28职责链模式%29\Practical\SpecialSupport.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\13-Chain of Responsibility %28职责链模式%29\Practical\Support.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\13-Chain of Responsibility %28职责链模式%29\Practical\Trouble.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\13-Chain of Responsibility %28职责链模式%29\Structural\Client.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\13-Chain of Responsibility %28职责链模式%29\Structural\ConcreteHandler1.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\13-Chain of Responsibility %28职责链模式%29\Structural\ConcreteHandler2.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\13-Chain of Responsibility %28职责链模式%29\Structural\Handler.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\14-Command %28命令模式%29\Practical2\Client.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\14-Command %28命令模式%29\Practical2\Command.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\14-Command %28命令模式%29\Practical2\ConfigOperator.cs" />
@@ -156,7 +167,6 @@
     <Folder Include="2-Structural Patterns %28结构型模式%29\07-Bridge %28桥接模式%29\" />
     <Folder Include="2-Structural Patterns %28结构型模式%29\08-Composite %28组合模式%29\" />
     <Folder Include="2-Structural Patterns %28结构型模式%29\11-Flyweight %28享元模式%29\" />
-    <Folder Include="3-Behavioral Patterns %28行为型模式%29\13-Chain of Responsibility %28职责链模式%29\" />
     <Folder Include="3-Behavioral Patterns %28行为型模式%29\15-Interpreter %28解释器模式%29\" />
     <Folder Include="3-Behavioral Patterns %28行为型模式%29\16-Iterator %28迭代器模式%29\" />
     <Folder Include="3-Behavioral Patterns %28行为型模式%29\18-Memento %28备忘录模式%29\" />
