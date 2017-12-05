@@ -139,6 +139,17 @@
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\20-State %28状态模式%29\State.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\20-State %28状态模式%29\Test.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\20-State %28状态模式%29\WeekEnum.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\21-Strategy %28策略模式%29\Practical\ChildrenDiscount.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\21-Strategy %28策略模式%29\Practical\Client.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\21-Strategy %28策略模式%29\Practical\Discount.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\21-Strategy %28策略模式%29\Practical\MovieTicket.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\21-Strategy %28策略模式%29\Practical\StudentDiscount.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\21-Strategy %28策略模式%29\Practical\VipDiscount.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\21-Strategy %28策略模式%29\Structural\Client.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\21-Strategy %28策略模式%29\Structural\ConcreteStrategyA.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\21-Strategy %28策略模式%29\Structural\ConcreteStrategyB.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\21-Strategy %28策略模式%29\Structural\Context.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\21-Strategy %28策略模式%29\Structural\Strategy.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\22-Template Method %28模板方法模式%29\Account.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\22-Template Method %28模板方法模式%29\CurrentAccount.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\22-Template Method %28模板方法模式%29\SavingAccount.cs" />
@@ -170,7 +181,6 @@
     <Folder Include="3-Behavioral Patterns %28行为型模式%29\15-Interpreter %28解释器模式%29\" />
     <Folder Include="3-Behavioral Patterns %28行为型模式%29\16-Iterator %28迭代器模式%29\" />
     <Folder Include="3-Behavioral Patterns %28行为型模式%29\18-Memento %28备忘录模式%29\" />
-    <Folder Include="3-Behavioral Patterns %28行为型模式%29\21-Strategy %28策略模式%29\" />
     <Folder Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
