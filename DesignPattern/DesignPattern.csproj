@@ -161,6 +161,29 @@
     <Compile Include="1-Creational Patterns %28创建型模式%29\03-Factory Method %28工厂方法%29\Framework\Logger.cs" />
     <Compile Include="1-Creational Patterns %28创建型模式%29\03-Factory Method %28工厂方法%29\Framework\LoggerFactory.cs" />
     <Compile Include="1-Creational Patterns %28创建型模式%29\03-Factory Method %28工厂方法%29\Test.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\Practical2\Client.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\Practical2\Department.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\Practical2\Employee.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\Practical2\EmployeeList.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\Practical2\FADepartment.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\Practical2\FulltimeEmployee.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\Practical2\HRDepartment.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\Practical2\ParttimeEmployee.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\Practical\Client.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\Practical\Directory.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\Practical\Element.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\Practical\Entry.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\Practical\File.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\Practical\ListVisitor.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\Practical\Visitor.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\Structural\Client.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\Structural\ConcreteElementA.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\Structural\ConcreteElementB.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\Structural\ConcreteVisitorA.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\Structural\ConcreteVisitorB.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\Structural\Element.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\Structural\ObjectStructure.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\Structural\Visitor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -181,7 +204,6 @@
     <Folder Include="3-Behavioral Patterns %28行为型模式%29\15-Interpreter %28解释器模式%29\" />
     <Folder Include="3-Behavioral Patterns %28行为型模式%29\16-Iterator %28迭代器模式%29\" />
     <Folder Include="3-Behavioral Patterns %28行为型模式%29\18-Memento %28备忘录模式%29\" />
-    <Folder Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.Sql.UnitTesting.targets" Condition="'$(SQLDBExtensionsRefPath)' != ''" />
