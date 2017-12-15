@@ -47,6 +47,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="1-Creational Patterns %28创建型模式%29\02-Builder %28建造者模式%29\Practical\Builder.cs" />
+    <Compile Include="1-Creational Patterns %28创建型模式%29\02-Builder %28建造者模式%29\Practical\Client.cs" />
+    <Compile Include="1-Creational Patterns %28创建型模式%29\02-Builder %28建造者模式%29\Practical\Director.cs" />
+    <Compile Include="1-Creational Patterns %28创建型模式%29\02-Builder %28建造者模式%29\Practical\HtmlBuilder.cs" />
+    <Compile Include="1-Creational Patterns %28创建型模式%29\02-Builder %28建造者模式%29\Practical\TextBuilder.cs" />
+    <Compile Include="1-Creational Patterns %28创建型模式%29\02-Builder %28建造者模式%29\Structural\Builder.cs" />
+    <Compile Include="1-Creational Patterns %28创建型模式%29\02-Builder %28建造者模式%29\Structural\Client.cs" />
+    <Compile Include="1-Creational Patterns %28创建型模式%29\02-Builder %28建造者模式%29\Structural\ConcreteBuilder.cs" />
+    <Compile Include="1-Creational Patterns %28创建型模式%29\02-Builder %28建造者模式%29\Structural\Director.cs" />
+    <Compile Include="1-Creational Patterns %28创建型模式%29\02-Builder %28建造者模式%29\Structural\Product.cs" />
     <Compile Include="1-Creational Patterns %28创建型模式%29\04-Prototype %28原型模式%29\Practical\Client.cs" />
     <Compile Include="1-Creational Patterns %28创建型模式%29\04-Prototype %28原型模式%29\Practical\Manager.cs" />
     <Compile Include="1-Creational Patterns %28创建型模式%29\04-Prototype %28原型模式%29\Practical\MessageBox.cs" />
@@ -203,7 +213,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="1-Creational Patterns %28创建型模式%29\01-Abstract Factory %28抽象工厂模式%29\" />
-    <Folder Include="1-Creational Patterns %28创建型模式%29\02-Builder %28建造者模式%29\" />
     <Folder Include="1-Creational Patterns %28创建型模式%29\05-Singleton %28单件模式%29\" />
     <Folder Include="2-Structural Patterns %28结构型模式%29\07-Bridge %28桥接模式%29\" />
     <Folder Include="2-Structural Patterns %28结构型模式%29\08-Composite %28组合模式%29\" />
