@@ -81,6 +81,16 @@
     <Compile Include="2-Structural Patterns %28结构型模式%29\06-Adapter %28适配器模式%29\Structural\ObjectAdapter\Adapter.cs" />
     <Compile Include="2-Structural Patterns %28结构型模式%29\06-Adapter %28适配器模式%29\Structural\ObjectAdapter\Client.cs" />
     <Compile Include="2-Structural Patterns %28结构型模式%29\06-Adapter %28适配器模式%29\Structural\ObjectAdapter\Target.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\07-Bridge %28桥接模式%29\Practical\Client.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\07-Bridge %28桥接模式%29\Practical\CountDisplay.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\07-Bridge %28桥接模式%29\Practical\Display.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\07-Bridge %28桥接模式%29\Practical\DisplayImpl.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\07-Bridge %28桥接模式%29\Practical\StringDisplayImpl.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\07-Bridge %28桥接模式%29\Structural\Abstraction.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\07-Bridge %28桥接模式%29\Structural\Client.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\07-Bridge %28桥接模式%29\Structural\ConcreteImplementor.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\07-Bridge %28桥接模式%29\Structural\Implementor.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\07-Bridge %28桥接模式%29\Structural\RefinedAbstraction.cs" />
     <Compile Include="2-Structural Patterns %28结构型模式%29\09-Decorator %28装饰模式%29\Practical\Border.cs" />
     <Compile Include="2-Structural Patterns %28结构型模式%29\09-Decorator %28装饰模式%29\Practical\Client.cs" />
     <Compile Include="2-Structural Patterns %28结构型模式%29\09-Decorator %28装饰模式%29\Practical\Display.cs" />
@@ -214,7 +224,6 @@
   <ItemGroup>
     <Folder Include="1-Creational Patterns %28创建型模式%29\01-Abstract Factory %28抽象工厂模式%29\" />
     <Folder Include="1-Creational Patterns %28创建型模式%29\05-Singleton %28单件模式%29\" />
-    <Folder Include="2-Structural Patterns %28结构型模式%29\07-Bridge %28桥接模式%29\" />
     <Folder Include="2-Structural Patterns %28结构型模式%29\08-Composite %28组合模式%29\" />
     <Folder Include="2-Structural Patterns %28结构型模式%29\11-Flyweight %28享元模式%29\" />
     <Folder Include="3-Behavioral Patterns %28行为型模式%29\15-Interpreter %28解释器模式%29\" />
