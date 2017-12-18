@@ -178,10 +178,10 @@
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\21-Strategy %28策略模式%29\Structural\ConcreteStrategyB.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\21-Strategy %28策略模式%29\Structural\Context.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\21-Strategy %28策略模式%29\Structural\Strategy.cs" />
-    <Compile Include="3-Behavioral Patterns %28行为型模式%29\22-Template Method %28模板方法模式%29\Account.cs" />
-    <Compile Include="3-Behavioral Patterns %28行为型模式%29\22-Template Method %28模板方法模式%29\CurrentAccount.cs" />
-    <Compile Include="3-Behavioral Patterns %28行为型模式%29\22-Template Method %28模板方法模式%29\SavingAccount.cs" />
-    <Compile Include="3-Behavioral Patterns %28行为型模式%29\22-Template Method %28模板方法模式%29\Test.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\22-Template Method %28模板方法模式%29\Practical\Account.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\22-Template Method %28模板方法模式%29\Practical\CurrentAccount.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\22-Template Method %28模板方法模式%29\Practical\SavingAccount.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\22-Template Method %28模板方法模式%29\Practical\Test.cs" />
     <Compile Include="1-Creational Patterns %28创建型模式%29\03-Factory Method %28工厂方法%29\ConcreteFactory\DatabaseFactory.cs" />
     <Compile Include="1-Creational Patterns %28创建型模式%29\03-Factory Method %28工厂方法%29\ConcreteFactory\FileFactory.cs" />
     <Compile Include="1-Creational Patterns %28创建型模式%29\03-Factory Method %28工厂方法%29\ConcreteLogger\DatabaseLogger.cs" />
@@ -189,6 +189,9 @@
     <Compile Include="1-Creational Patterns %28创建型模式%29\03-Factory Method %28工厂方法%29\Framework\Logger.cs" />
     <Compile Include="1-Creational Patterns %28创建型模式%29\03-Factory Method %28工厂方法%29\Framework\LoggerFactory.cs" />
     <Compile Include="1-Creational Patterns %28创建型模式%29\03-Factory Method %28工厂方法%29\Test.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\22-Template Method %28模板方法模式%29\Structural\AbstractClass.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\22-Template Method %28模板方法模式%29\Structural\Client.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\22-Template Method %28模板方法模式%29\Structural\ConcreteClass.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\Practical2\Client.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\Practical2\Department.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\23-Visitor %28访问者模式%29\Practical2\Employee.cs" />
