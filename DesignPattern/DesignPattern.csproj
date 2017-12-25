@@ -117,6 +117,14 @@
     <Compile Include="2-Structural Patterns %28结构型模式%29\07-Bridge %28桥接模式%29\Structural\ConcreteImplementor.cs" />
     <Compile Include="2-Structural Patterns %28结构型模式%29\07-Bridge %28桥接模式%29\Structural\Implementor.cs" />
     <Compile Include="2-Structural Patterns %28结构型模式%29\07-Bridge %28桥接模式%29\Structural\RefinedAbstraction.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\08-Composite %28组合模式%29\Practical\Client.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\08-Composite %28组合模式%29\Practical\Directory.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\08-Composite %28组合模式%29\Practical\Entry.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\08-Composite %28组合模式%29\Practical\File.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\08-Composite %28组合模式%29\Structural\Client.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\08-Composite %28组合模式%29\Structural\Component.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\08-Composite %28组合模式%29\Structural\Composite.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\08-Composite %28组合模式%29\Structural\Left.cs" />
     <Compile Include="2-Structural Patterns %28结构型模式%29\09-Decorator %28装饰模式%29\Practical\Border.cs" />
     <Compile Include="2-Structural Patterns %28结构型模式%29\09-Decorator %28装饰模式%29\Practical\Client.cs" />
     <Compile Include="2-Structural Patterns %28结构型模式%29\09-Decorator %28装饰模式%29\Practical\Display.cs" />
@@ -252,7 +260,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="1-Creational Patterns %28创建型模式%29\05-Singleton %28单件模式%29\" />
-    <Folder Include="2-Structural Patterns %28结构型模式%29\08-Composite %28组合模式%29\" />
     <Folder Include="2-Structural Patterns %28结构型模式%29\11-Flyweight %28享元模式%29\" />
     <Folder Include="3-Behavioral Patterns %28行为型模式%29\15-Interpreter %28解释器模式%29\" />
     <Folder Include="3-Behavioral Patterns %28行为型模式%29\16-Iterator %28迭代器模式%29\" />
