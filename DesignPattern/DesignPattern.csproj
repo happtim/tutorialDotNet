@@ -139,6 +139,9 @@
     <Compile Include="2-Structural Patterns %28结构型模式%29\10-Facade %28外观模式%29\Structural\Client.cs" />
     <Compile Include="2-Structural Patterns %28结构型模式%29\10-Facade %28外观模式%29\Structural\Facade.cs" />
     <Compile Include="2-Structural Patterns %28结构型模式%29\10-Facade %28外观模式%29\Structural\SubSystem.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\11-Flyweight %28享元模式%29\Structural\Client.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\11-Flyweight %28享元模式%29\Structural\Flyweight.cs" />
+    <Compile Include="2-Structural Patterns %28结构型模式%29\11-Flyweight %28享元模式%29\Structural\FlyweightFactory.cs" />
     <Compile Include="2-Structural Patterns %28结构型模式%29\12-Proxy %28代理模式%29\Practical\Client.cs" />
     <Compile Include="2-Structural Patterns %28结构型模式%29\12-Proxy %28代理模式%29\Practical\Printable.cs" />
     <Compile Include="2-Structural Patterns %28结构型模式%29\12-Proxy %28代理模式%29\Practical\Printer.cs" />
@@ -260,7 +263,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="1-Creational Patterns %28创建型模式%29\05-Singleton %28单件模式%29\" />
-    <Folder Include="2-Structural Patterns %28结构型模式%29\11-Flyweight %28享元模式%29\" />
     <Folder Include="3-Behavioral Patterns %28行为型模式%29\15-Interpreter %28解释器模式%29\" />
     <Folder Include="3-Behavioral Patterns %28行为型模式%29\16-Iterator %28迭代器模式%29\" />
     <Folder Include="3-Behavioral Patterns %28行为型模式%29\18-Memento %28备忘录模式%29\" />
