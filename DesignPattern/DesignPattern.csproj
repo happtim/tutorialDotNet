@@ -186,6 +186,13 @@
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\17-Mediator %28中介者模式%29\Structural\ConcreteColleague3.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\17-Mediator %28中介者模式%29\Structural\ConcreteMediator.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\17-Mediator %28中介者模式%29\Structural\Mediator.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\18-Memento %28备忘录模式%29\Practical\Client.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\18-Memento %28备忘录模式%29\Practical\Gamer.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\18-Memento %28备忘录模式%29\Practical\Memento.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\18-Memento %28备忘录模式%29\Structural\Caretaker.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\18-Memento %28备忘录模式%29\Structural\Client.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\18-Memento %28备忘录模式%29\Structural\Memento.cs" />
+    <Compile Include="3-Behavioral Patterns %28行为型模式%29\18-Memento %28备忘录模式%29\Structural\Originator.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\19-Observer %28观察者模式%29\Practical\Client.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\19-Observer %28观察者模式%29\Practical\DigitObserver.cs" />
     <Compile Include="3-Behavioral Patterns %28行为型模式%29\19-Observer %28观察者模式%29\Practical\GraphObserver.cs" />
@@ -265,7 +272,6 @@
     <Folder Include="1-Creational Patterns %28创建型模式%29\05-Singleton %28单件模式%29\" />
     <Folder Include="3-Behavioral Patterns %28行为型模式%29\15-Interpreter %28解释器模式%29\" />
     <Folder Include="3-Behavioral Patterns %28行为型模式%29\16-Iterator %28迭代器模式%29\" />
-    <Folder Include="3-Behavioral Patterns %28行为型模式%29\18-Memento %28备忘录模式%29\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.Sql.UnitTesting.targets" Condition="'$(SQLDBExtensionsRefPath)' != ''" />
