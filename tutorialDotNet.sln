@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacIOC", "AutoFac\Autof
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTest", "WebTest\WebTest.csproj", "{48179D2A-FEF4-4691-A394-EDCFA30279E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlRpc", "XmlRpc\XmlRpc.csproj", "{143E755B-4DC3-4DBB-9344-EAF037339BC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{48179D2A-FEF4-4691-A394-EDCFA30279E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48179D2A-FEF4-4691-A394-EDCFA30279E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48179D2A-FEF4-4691-A394-EDCFA30279E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{143E755B-4DC3-4DBB-9344-EAF037339BC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{143E755B-4DC3-4DBB-9344-EAF037339BC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{143E755B-4DC3-4DBB-9344-EAF037339BC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{143E755B-4DC3-4DBB-9344-EAF037339BC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
