@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial", "tutorial\Tutorial.csproj", "{EE481C93-725B-4B59-A37A-75CEE3F93831}"
 EndProject
@@ -22,6 +22,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTest", "WebTest\WebTest.csproj", "{48179D2A-FEF4-4691-A394-EDCFA30279E8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlRpc", "XmlRpc\XmlRpc.csproj", "{143E755B-4DC3-4DBB-9344-EAF037339BC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexTester", "RegexTester\RegexTester.csproj", "{4CEDDF0D-622B-41EE-A9B2-C7F0DC4BFE14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{143E755B-4DC3-4DBB-9344-EAF037339BC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{143E755B-4DC3-4DBB-9344-EAF037339BC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{143E755B-4DC3-4DBB-9344-EAF037339BC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CEDDF0D-622B-41EE-A9B2-C7F0DC4BFE14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CEDDF0D-622B-41EE-A9B2-C7F0DC4BFE14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CEDDF0D-622B-41EE-A9B2-C7F0DC4BFE14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CEDDF0D-622B-41EE-A9B2-C7F0DC4BFE14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
