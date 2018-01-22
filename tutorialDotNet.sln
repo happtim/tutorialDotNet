@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial", "tutorial\Tutori
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern", "DesignPattern\DesignPattern.csproj", "{4F9F2F9E-B919-4174-810E-ACA815862564}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base", "Base\Base.csproj", "{543C9D2B-5A8B-4096-88EE-B90A0B4D71ED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpGuide", "Base\CSharpGuide.csproj", "{543C9D2B-5A8B-4096-88EE-B90A0B4D71ED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityFramework", "UnityFramework\UnityFramework.csproj", "{7BA52E33-6639-4777-B04A-423F929616CC}"
 EndProject
@@ -24,6 +24,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlRpc", "XmlRpc\XmlRpc.csproj", "{143E755B-4DC3-4DBB-9344-EAF037339BC0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexTester", "RegexTester\RegexTester.csproj", "{4CEDDF0D-622B-41EE-A9B2-C7F0DC4BFE14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetGuide", "DotNetGuide\DotNetGuide.csproj", "{BB75CA64-C044-49B5-976B-3E0BAE3AA953}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{4CEDDF0D-622B-41EE-A9B2-C7F0DC4BFE14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CEDDF0D-622B-41EE-A9B2-C7F0DC4BFE14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CEDDF0D-622B-41EE-A9B2-C7F0DC4BFE14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB75CA64-C044-49B5-976B-3E0BAE3AA953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB75CA64-C044-49B5-976B-3E0BAE3AA953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB75CA64-C044-49B5-976B-3E0BAE3AA953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB75CA64-C044-49B5-976B-3E0BAE3AA953}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
