@@ -59,6 +59,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="04-Delegates\FileLogger.cs" />
+    <Compile Include="04-Delegates\Logger.cs" />
+    <Compile Include="04-Delegates\TestLog.cs" />
     <Compile Include="09-Generics\04-Constration.cs" />
     <Compile Include="09-Generics\05-Inherit.cs" />
     <Compile Include="09-Generics\06-Interface.cs" />
@@ -73,7 +76,7 @@
     <Compile Include="Enums\Weeks.cs" />
     <Compile Include="Equals\ObjectEqualsTest.cs" />
     <Compile Include="Equals\People.cs" />
-    <Compile Include="Events\PublishEvents.cs" />
+    <Compile Include="06-Events\PublishEvents.cs" />
     <Compile Include="09-Generics\ListTest.cs" />
     <Compile Include="09-Generics\OperatorEqual.cs" />
     <Compile Include="Keywords\LockTest.cs" />
@@ -88,7 +91,6 @@
     <Compile Include="Linq\Retrieve.cs" />
     <Compile Include="Linq\Select.cs" />
     <Compile Include="Linq\SkipTake.cs" />
-    <Compile Include="Linq\Mutate.cs" />
     <Compile Include="Objects\TestNullEquals.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

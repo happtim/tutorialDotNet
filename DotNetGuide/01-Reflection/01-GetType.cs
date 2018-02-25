@@ -62,5 +62,35 @@ namespace DotNetGuide._01_ViewTypes
         }
 
 
+        class SomeThing :ICloneable{
+            public string name;
+            public string age;
+
+            public object Clone() {
+                return new SomeThing { name = this.name, age = this.age };
+/*
+                SomeThing other = (SomeThing) this.MemberwiseClone();
+                other.name = this.name;
+                other.age = this.age;
+                return other;
+                */
+            }
+        }
+
+        [TestMethod]
+        public void Test5() {
+
+            DateTime now = DateTime.Now;
+
+            for(int i = 0 ; i < 100000; ++i){
+                Random rd = new Random(1);
+                rd.Next();
+            }
+
+            Console.WriteLine( DateTime.Now - now);
+
+
+        }
+      
     }
 }
