@@ -62,6 +62,9 @@
     <Compile Include="04-Delegates\FileLogger.cs" />
     <Compile Include="04-Delegates\Logger.cs" />
     <Compile Include="04-Delegates\TestLog.cs" />
+    <Compile Include="06-Events\FileFoundArgs.cs" />
+    <Compile Include="06-Events\FileSearcher.cs" />
+    <Compile Include="06-Events\FileSearcherTest.cs" />
     <Compile Include="09-Generics\04-Constration.cs" />
     <Compile Include="09-Generics\05-Inherit.cs" />
     <Compile Include="09-Generics\06-Interface.cs" />

@@ -31,6 +31,17 @@ namespace Base.Events
             if (handle != null) {
                 handle(this, e);
             }
+
+            /*
+            if(RaiseEvent != null) {
+                RaiseEvent(this, e);
+            }
+            */
+
+            /*
+            RaiseEvent?.Invoke(this, e);
+             */
+
         }
 
         public void DoSomething()
