@@ -70,7 +70,7 @@
     <Compile Include="09-Generics\06-Interface.cs" />
     <Compile Include="09-Generics\09-Delegate.cs" />
     <Compile Include="09-Generics\11-Runtim.cs" />
-    <Compile Include="10-StatementsExpressionsOperators\03-Operators\Conversion.cs" />
+    <Compile Include="17-StatementsExpressionsOperators\03-Operators\Conversion.cs" />
     <Compile Include="Asyncs\BeginInvoke.cs" />
     <Compile Include="Asyncs\BlockUntilOperationCompletes.cs" />
     <Compile Include="Asyncs\UseDelegateForAsyncCallback.cs" />
@@ -121,8 +121,8 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="10-StatementsExpressionsOperators\01-Statements\" />
-    <Folder Include="10-StatementsExpressionsOperators\02-Expressions\" />
+    <Folder Include="17-StatementsExpressionsOperators\01-Statements\" />
+    <Folder Include="17-StatementsExpressionsOperators\02-Expressions\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
