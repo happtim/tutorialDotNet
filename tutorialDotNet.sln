@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexTester", "RegexTester\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetGuide", "DotNetGuide\DotNetGuide.csproj", "{BB75CA64-C044-49B5-976B-3E0BAE3AA953}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mongo", "Mongo\Mongo.csproj", "{4FF731C3-312D-4DD6-9201-27E35DD017AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{BB75CA64-C044-49B5-976B-3E0BAE3AA953}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB75CA64-C044-49B5-976B-3E0BAE3AA953}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB75CA64-C044-49B5-976B-3E0BAE3AA953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FF731C3-312D-4DD6-9201-27E35DD017AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FF731C3-312D-4DD6-9201-27E35DD017AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FF731C3-312D-4DD6-9201-27E35DD017AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FF731C3-312D-4DD6-9201-27E35DD017AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
