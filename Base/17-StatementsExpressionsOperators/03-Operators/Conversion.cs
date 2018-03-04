@@ -31,13 +31,13 @@ namespace CSharpGuide._10_StatementsExpressionsOperators._03_Operators
             /// implicit 隐式转换
             /// </summary>
             /// <param name="b"></param>
-            public static explicit operator Digit(byte b) {
+            public static implicit  operator Digit(byte b) {
                 Digit d = new Digit(b);
                 System.Console.WriteLine("Conversion occurred.");
                 return d;
             }
 
-            public static implicit operator byte(Digit d) {
+            public static explicit operator byte(Digit d) {
                 System.Console.WriteLine("conversion occurred");
                 return d.value;  // implicit conversion
             }
@@ -50,7 +50,10 @@ namespace CSharpGuide._10_StatementsExpressionsOperators._03_Operators
             {
                 byte b = 3;
                 Digit d = (Digit)b;  // 显示转换
-                b = d;               // 隐式转换
+                Digit dd = b;        // 隐式转换
+
+                b = (byte)d;         // 显示转换
+                //b = d;             // 隐式转换
             }
             catch (System.Exception e)
             {
