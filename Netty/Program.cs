@@ -58,8 +58,8 @@ namespace Netty
                         }
                         pipeline.AddLast(new LoggingHandler("CONN"));
                         pipeline.AddLast(new IdleStateHandler(10,0,0));
-                        pipeline.AddLast(new MyLengthFieldBasedFrameDecoder(ByteOrder.LittleEndian,1024*4,1,4,-5,8,true));
-                        pipeline.AddLast(new DelimiterBasedFrameDecoder(1024*4,Unpooled.WrappedBuffer( new byte[] { (byte)'!' } )));
+                        pipeline.AddLast(new MyLengthFieldBasedFrameDecoder(ByteOrder.LittleEndian,1024*4,1,4,-5,0,true));
+                        //pipeline.AddLast(new DelimiterBasedFrameDecoder(1024*4,Unpooled.WrappedBuffer( new byte[] { (byte)'!' } )));
                         pipeline.AddLast(new MyLengthFieldBasedFrameEncoder(), STRING_DECODER, new EchoServerHandler());
                         pipeline.AddLast(new HeartBeatServerHandler());
                     }));

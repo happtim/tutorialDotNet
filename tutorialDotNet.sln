@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketTool", "SocketTool\So
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netty", "Netty\Netty.csproj", "{1567E301-668A-419C-8807-5D6254C049FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtoBufSerialize", "ProtoBufSerialize\ProtoBufSerialize.csproj", "{05ED981F-9495-41DA-82BB-718F663B982A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{1567E301-668A-419C-8807-5D6254C049FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1567E301-668A-419C-8807-5D6254C049FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1567E301-668A-419C-8807-5D6254C049FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05ED981F-9495-41DA-82BB-718F663B982A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05ED981F-9495-41DA-82BB-718F663B982A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05ED981F-9495-41DA-82BB-718F663B982A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05ED981F-9495-41DA-82BB-718F663B982A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
