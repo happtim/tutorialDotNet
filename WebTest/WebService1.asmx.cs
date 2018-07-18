@@ -16,6 +16,14 @@ namespace WebTest
     // [System.Web.Script.Services.ScriptService]
     public class WebService1 : System.Web.Services.WebService
     {
+        [WebMethod]
+        public List<BaseTaskDTO> NonExecuateTask() {
+            return new List<BaseTaskDTO>() {
+                new BaseTaskDTO() { FromStation = "00001",ToStation = "00002",Priority = 10, CreateTime = DateTime.Now },
+                new BaseTaskDTO() { FromStation = "20002",ToStation = "20003",Priority = 20, CreateTime = DateTime.Now },
+                new BaseTaskDTO() { FromStation = "40004",ToStation = "40005",Priority = 30, CreateTime = DateTime.Now },
+            };
+        }
 
         [WebMethod]
         public string HelloWorld()

@@ -5,6 +5,8 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
+using WebTest.ServiceReference1;
+
 namespace WebTest
 {
     public partial class WebForm1 : System.Web.UI.Page
@@ -14,9 +16,31 @@ namespace WebTest
 
         }
 
+        //正常的方式调用
         protected void Button1_Click(object sender, EventArgs e) {
-            localhost.WebService1 w1 = new localhost.WebService1();
-            Label1.Text = w1.Add(1, 2).ToString();
+            var soap = new WebService1SoapClient();
+            
+            Label1.Text = soap.Add(1, 2).ToString();
+
+            var list = soap.NonExecuateTask();
+            GridView1.DataSource = list;
+            GridView1.DataBind();
+        }
+
+        //使用QWebServiceProxy调用
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            var proxy = new QWebServiceProxy("http://localhost:8080/WebService1.asmx?WSDL", "WebTest", "WebService1");
+            var result =  proxy.Invoke("Add", new object[] {3,5});
+            Label1.Text = result.ToString();
+
+            object list =  proxy.Invoke("NonExecuateTask",new object[] { });
+
+            GridView1.DataSource = list;
+            
+            GridView1.DataBind();
+
+            
         }
     }
 }
