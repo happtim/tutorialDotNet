@@ -20,7 +20,7 @@ using DotNetty.Handlers.Timeout;
 
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging.Console;
-
+using System.Net;
 
 namespace Netty
 {
@@ -76,7 +76,45 @@ namespace Netty
             }
         }
 
-        public static void Main() => RunServerAsync().Wait();
+        static async Task RunClientAsync() {
+
+            ExampleHelper.SetConsoleLogger();
+
+            var group = new MultithreadEventLoopGroup();
+        
+            try
+            {
+                var bootstrap = new Bootstrap();
+                bootstrap
+                    .Group(group)
+                    .Channel<TcpSocketChannel>()
+                    .Option(ChannelOption.TcpNodelay, true)
+                    .Handler(new ActionChannelInitializer<ISocketChannel>(channel =>
+                    {
+                        IChannelPipeline pipeline = channel.Pipeline;
+
+                    
+                        pipeline.AddLast(new LoggingHandler());
+                        pipeline.AddLast("framing-enc", new LengthFieldPrepender(2));
+                        pipeline.AddLast("framing-dec", new LengthFieldBasedFrameDecoder(ushort.MaxValue, 0, 2, 0, 2));
+
+                        pipeline.AddLast("echo", new EchoClientHandler());
+                    }));
+
+                IChannel clientChannel = await bootstrap.ConnectAsync(new IPEndPoint(IPAddress.Parse("172.19.192.1") , 9601));
+
+                Console.ReadLine();
+
+                await clientChannel.CloseAsync();
+            }
+            finally
+            {
+                await group.ShutdownGracefullyAsync(TimeSpan.FromMilliseconds(100), TimeSpan.FromSeconds(1));
+            }
+        }
+
+        //public static void Main() => RunServerAsync().Wait();
+        static void Main() => RunClientAsync().Wait();
     }
 
 }

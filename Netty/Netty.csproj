@@ -117,6 +117,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EchoClientHandler.cs" />
     <Compile Include="EchoServerHandler.cs" />
     <Compile Include="ExampleHelper.cs" />
     <Compile Include="HeartBeatServerHandler.cs" />

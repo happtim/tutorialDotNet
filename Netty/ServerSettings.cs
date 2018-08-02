@@ -25,5 +25,7 @@ namespace Netty
                 return !string.IsNullOrEmpty(libuv) && bool.Parse(libuv);
             }
         }
+
+        public static int Size => int.Parse(ExampleHelper.Configuration["size"]);
     }
 }
