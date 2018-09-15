@@ -1,15 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial", "tutorial\Tutorial.csproj", "{EE481C93-725B-4B59-A37A-75CEE3F93831}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern", "DesignPattern\DesignPattern.csproj", "{4F9F2F9E-B919-4174-810E-ACA815862564}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpGuide", "Base\CSharpGuide.csproj", "{543C9D2B-5A8B-4096-88EE-B90A0B4D71ED}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityFramework", "UnityFramework\UnityFramework.csproj", "{7BA52E33-6639-4777-B04A-423F929616CC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newtonsoft", "Newtonsoft\Newtonsoft.csproj", "{BD17C973-F3A3-46F8-8B83-F63F94B976C3}"
 EndProject
@@ -35,16 +31,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netty", "Netty\Netty.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtoBufSerialize", "ProtoBufSerialize\ProtoBufSerialize.csproj", "{05ED981F-9495-41DA-82BB-718F663B982A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PictureBoxZoom", "PictureBoxZoom\PictureBoxZoom.csproj", "{7B983FF9-3AF7-45C9-B019-FFD5FBED4A8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EE481C93-725B-4B59-A37A-75CEE3F93831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EE481C93-725B-4B59-A37A-75CEE3F93831}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EE481C93-725B-4B59-A37A-75CEE3F93831}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EE481C93-725B-4B59-A37A-75CEE3F93831}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4F9F2F9E-B919-4174-810E-ACA815862564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4F9F2F9E-B919-4174-810E-ACA815862564}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F9F2F9E-B919-4174-810E-ACA815862564}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -53,10 +47,6 @@ Global
 		{543C9D2B-5A8B-4096-88EE-B90A0B4D71ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{543C9D2B-5A8B-4096-88EE-B90A0B4D71ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{543C9D2B-5A8B-4096-88EE-B90A0B4D71ED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7BA52E33-6639-4777-B04A-423F929616CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7BA52E33-6639-4777-B04A-423F929616CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7BA52E33-6639-4777-B04A-423F929616CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7BA52E33-6639-4777-B04A-423F929616CC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BD17C973-F3A3-46F8-8B83-F63F94B976C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BD17C973-F3A3-46F8-8B83-F63F94B976C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD17C973-F3A3-46F8-8B83-F63F94B976C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -105,8 +95,15 @@ Global
 		{05ED981F-9495-41DA-82BB-718F663B982A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05ED981F-9495-41DA-82BB-718F663B982A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05ED981F-9495-41DA-82BB-718F663B982A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B983FF9-3AF7-45C9-B019-FFD5FBED4A8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B983FF9-3AF7-45C9-B019-FFD5FBED4A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B983FF9-3AF7-45C9-B019-FFD5FBED4A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B983FF9-3AF7-45C9-B019-FFD5FBED4A8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAC69A72-3E7B-4C1A-B8C8-B487770557F9}
 	EndGlobalSection
 EndGlobal
