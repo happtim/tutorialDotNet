@@ -40,6 +40,8 @@ namespace Base.Enums
                 "1",
                 sunday.ToString("D")
             );
+            //error 格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”
+            //Assert.AreEqual("01",sunday.ToString("D2"));
 
             //枚举类型 --> 整数
             Assert.AreEqual(
