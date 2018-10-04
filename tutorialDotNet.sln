@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtoBufSerialize", "ProtoB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PictureBoxZoom", "PictureBoxZoom\PictureBoxZoom.csproj", "{7B983FF9-3AF7-45C9-B019-FFD5FBED4A8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinSelfhostSample", "OwinSelfhostSample\OwinSelfhostSample.csproj", "{20FD8D4B-C30C-4642-9965-E5F342CA1735}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{7B983FF9-3AF7-45C9-B019-FFD5FBED4A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B983FF9-3AF7-45C9-B019-FFD5FBED4A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B983FF9-3AF7-45C9-B019-FFD5FBED4A8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20FD8D4B-C30C-4642-9965-E5F342CA1735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20FD8D4B-C30C-4642-9965-E5F342CA1735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20FD8D4B-C30C-4642-9965-E5F342CA1735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20FD8D4B-C30C-4642-9965-E5F342CA1735}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
