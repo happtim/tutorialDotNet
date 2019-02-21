@@ -18,7 +18,7 @@ namespace Algorithm.Test
             GraphPath<String, DefaultWeightedEdge> path;
             Graph<String, DefaultWeightedEdge> g = create();
 
-            path = new DijkstraShortestPath<string,DefaultWeightedEdge>(g, Double.PositiveInfinity).getPath(V3, V4);
+            path = new DijkstraShortestPath<string,DefaultWeightedEdge>(g, Double.PositiveInfinity).getPath(V1, V5);
             Assert.AreEqual(new List<DefaultWeightedEdge>() { e13, e12, e24 }, path.getEdgeList());
             //assertEquals(Arrays.asList(e13, e12, e24), path.getEdgeList());
             Assert.AreEqual(10.0, path.getWeight(), 0);

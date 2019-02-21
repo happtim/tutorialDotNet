@@ -56,9 +56,9 @@ namespace Algorithm.ShortestPath
             Contract.Requires(source != null);
             Contract.Requires(distanceAndPredecessorMap != null);
 
-            //this.g = Objects.requireNonNull(g, "Graph is null");
-            //this.source = Objects.requireNonNull(source, "Source vertex is null");
-            //this.map = Objects .requireNonNull(distanceAndPredecessorMap, "Distance and predecessor map is null");
+            this.g =g;
+            this.source = source;
+            this.map = distanceAndPredecessorMap;
         }
 
         /**

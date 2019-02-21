@@ -173,7 +173,8 @@ namespace Algorithm.ShortestPath
 
         private void updateDistance(V v, E e, double distance)
         {
-            FibonacciHeapNode<QueueEntry> node = seen[v];
+            FibonacciHeapNode<QueueEntry> node = null;
+            seen.TryGetValue(v,out node);
             if (node == null)
             {
                 node = new FibonacciHeapNode<QueueEntry>(new QueueEntry(e, v));

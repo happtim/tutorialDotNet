@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinSelfhostSample", "OwinS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quart", "Quart\Quart.csproj", "{FBB7B42E-AC91-48D8-B410-AB75FC382056}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm", "Algorithm\Algorithm.csproj", "{154D340B-B3B8-4390-BE21-0AC6B583E2EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{FBB7B42E-AC91-48D8-B410-AB75FC382056}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBB7B42E-AC91-48D8-B410-AB75FC382056}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBB7B42E-AC91-48D8-B410-AB75FC382056}.Release|Any CPU.Build.0 = Release|Any CPU
+		{154D340B-B3B8-4390-BE21-0AC6B583E2EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{154D340B-B3B8-4390-BE21-0AC6B583E2EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{154D340B-B3B8-4390-BE21-0AC6B583E2EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{154D340B-B3B8-4390-BE21-0AC6B583E2EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

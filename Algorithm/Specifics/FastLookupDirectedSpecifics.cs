@@ -71,7 +71,8 @@ namespace Algorithm.Specifics
             if (abstractBaseGraph.containsVertex(sourceVertex)
                 && abstractBaseGraph.containsVertex(targetVertex))
             {
-                List<E> edges = touchingVerticesToEdgeMap[new KeyValuePair<V, V>(sourceVertex, targetVertex)];
+                ArrayUnenforcedSet<E> edges = null;
+                touchingVerticesToEdgeMap.TryGetValue(new KeyValuePair<V, V>(sourceVertex, targetVertex), out edges);
                 return edges == null ? new HashSet<E>() : new HashSet<E>(edges);
             }
             else
@@ -82,7 +83,8 @@ namespace Algorithm.Specifics
 
         public override E getEdge(V sourceVertex, V targetVertex)
         {
-            List<E> edges = touchingVerticesToEdgeMap[new KeyValuePair<V, V>(sourceVertex, targetVertex)];
+            ArrayUnenforcedSet<E> edges = null;
+            touchingVerticesToEdgeMap.TryGetValue(new KeyValuePair<V, V>(sourceVertex, targetVertex), out edges);
             if (edges == null || edges.Count == 0)
                 return default(E);
             else
@@ -98,7 +100,9 @@ namespace Algorithm.Specifics
             getEdgeContainer(target).addIncomingEdge(e);
 
             KeyValuePair<V, V> vertexPair = new KeyValuePair<V, V>(source, target);
-            ArrayUnenforcedSet<E> edgeSet = touchingVerticesToEdgeMap[vertexPair];
+            ArrayUnenforcedSet<E> edgeSet = null;
+
+            touchingVerticesToEdgeMap.TryGetValue(vertexPair, out edgeSet);
             if (edgeSet != null)
                 edgeSet.Add(e);
             else

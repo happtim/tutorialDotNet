@@ -72,7 +72,7 @@ namespace Algorithm.Test
                 // negative-weight edges are being tested, so only a directed graph
                 // makes sense
                 g = new SimpleDirectedWeightedGraph<string, DefaultWeightedEdge>(typeof(DefaultWeightedEdge));
-                bias = -1;
+                bias = 1;
             }
             else
             {
