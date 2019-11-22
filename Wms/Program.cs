@@ -41,7 +41,8 @@ namespace Wms
                 var warehouse1 = warehousesWithEagerLoading.FirstOrDefault(w => w.WarehouseNo == "lianjiao001");
 
                 // 显式的指定外键的更新方法
-                context.Areas.Attach(area2);
+                //context.Areas.Attach(area2); attach和改变状态为Unchanged 等同于后句 area2 = context.Areas.FirstOrDefault(a => a.AreaName == "母胶库002");
+                context.Entry(area2).State = System.Data.Entity.EntityState.Unchanged;
                 area2.WarehouseId = warehouse1.Id;
 
 
