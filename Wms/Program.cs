@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -34,7 +35,29 @@ namespace Wms
             var locations = tunnels.SelectMany(t => t.Locations);
 
             using (var context = new WmsContext()) {
-                
+
+                var area2 =  areas.First(a => a.AreaName == "母胶库002");
+
+                var warehouse1 = warehousesWithEagerLoading.FirstOrDefault(w => w.WarehouseNo == "lianjiao001");
+
+                // 显式的指定外键的更新方法
+                context.Areas.Attach(area2);
+                area2.WarehouseId = warehouse1.Id;
+
+
+                // ef自己加外键(隐式)的方式 更新导航属性太麻烦了.
+                //context.Areas.Attach(area2);
+                //context.Warehouses.Attach(warehouse1);
+
+                //((IObjectContextAdapter)context).ObjectContext.
+                //    ObjectStateManager.
+                //    ChangeRelationshipState(area2, area2.Warehouse, a => a.Warehouse, System.Data.Entity.EntityState.Deleted);
+
+                //((IObjectContextAdapter)context).ObjectContext.
+                //  ObjectStateManager.
+                //  ChangeRelationshipState(area2, warehouse1, a => a.Warehouse, System.Data.Entity.EntityState.Added);
+
+
                 var location =  locations.First(l => l.LocationNo == "location001");
 
                 context.LocationDetails.Add(new LocationDetail { Location = location,Material = materials.First() });

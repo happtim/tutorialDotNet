@@ -59,7 +59,7 @@ namespace Wms
             modelBuilder.Entity<Area>()
                 .HasRequired<Warehouse>(a => a.Warehouse)
                 .WithMany(w => w.Areas)
-                .HasForeignKey(a => a.WarehouseId);
+                .HasForeignKey(a=>a.WarehouseId);
 
 
         }
