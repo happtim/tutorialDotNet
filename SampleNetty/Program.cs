@@ -22,7 +22,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging.Console;
 using System.Net;
 
-namespace Netty
+namespace SampleNetty
 {
     public class Program
     {

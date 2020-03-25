@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Netty
+namespace SampleNetty
 {
     public static class ServerSettings
     {

@@ -27,7 +27,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mongo", "Mongo\Mongo.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketTool", "SocketTool\SocketTool.csproj", "{E2A883BE-DD74-4294-AABA-42C170127162}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netty", "Netty\Netty.csproj", "{1567E301-668A-419C-8807-5D6254C049FB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleNetty", "SampleNetty\SampleNetty.csproj", "{1567E301-668A-419C-8807-5D6254C049FB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtoBufSerialize", "ProtoBufSerialize\ProtoBufSerialize.csproj", "{05ED981F-9495-41DA-82BB-718F663B982A}"
 EndProject
@@ -42,6 +42,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wms", "Wms\Wms.csproj", "{99D07147-2764-434C-84DB-AE5532C39817}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleDotfuscator", "SampleDotfuscator\SampleDotfuscator.csproj", "{3B3D46BF-B46D-4605-AC90-A5927C2E852E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWix", "SampleWix\SampleWix.csproj", "{D1EAE800-DEAC-413F-9B9C-F8CB05EC72FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -293,6 +295,18 @@ Global
 		{3B3D46BF-B46D-4605-AC90-A5927C2E852E}.Release|x64.Build.0 = Release|Any CPU
 		{3B3D46BF-B46D-4605-AC90-A5927C2E852E}.Release|x86.ActiveCfg = Release|Any CPU
 		{3B3D46BF-B46D-4605-AC90-A5927C2E852E}.Release|x86.Build.0 = Release|Any CPU
+		{D1EAE800-DEAC-413F-9B9C-F8CB05EC72FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1EAE800-DEAC-413F-9B9C-F8CB05EC72FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1EAE800-DEAC-413F-9B9C-F8CB05EC72FB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D1EAE800-DEAC-413F-9B9C-F8CB05EC72FB}.Debug|x64.Build.0 = Debug|Any CPU
+		{D1EAE800-DEAC-413F-9B9C-F8CB05EC72FB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D1EAE800-DEAC-413F-9B9C-F8CB05EC72FB}.Debug|x86.Build.0 = Debug|Any CPU
+		{D1EAE800-DEAC-413F-9B9C-F8CB05EC72FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1EAE800-DEAC-413F-9B9C-F8CB05EC72FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1EAE800-DEAC-413F-9B9C-F8CB05EC72FB}.Release|x64.ActiveCfg = Release|Any CPU
+		{D1EAE800-DEAC-413F-9B9C-F8CB05EC72FB}.Release|x64.Build.0 = Release|Any CPU
+		{D1EAE800-DEAC-413F-9B9C-F8CB05EC72FB}.Release|x86.ActiveCfg = Release|Any CPU
+		{D1EAE800-DEAC-413F-9B9C-F8CB05EC72FB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

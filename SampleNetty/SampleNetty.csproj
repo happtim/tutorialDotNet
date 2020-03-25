@@ -7,8 +7,8 @@
     <ProjectGuid>{1567E301-668A-419C-8807-5D6254C049FB}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Netty</RootNamespace>
-    <AssemblyName>Netty</AssemblyName>
+    <RootNamespace>SampleNetty</RootNamespace>
+    <AssemblyName>SampleNetty</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
