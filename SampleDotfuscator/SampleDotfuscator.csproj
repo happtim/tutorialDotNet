@@ -48,12 +48,13 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Dotfuscator1.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
   </PropertyGroup>
-  
-	<Target Name="AfterBuild" Condition="'$(Configuration)' == 'Release'">
-	<Exec Command="&quot;$(DevEnvDir)Extensions\PreEmptiveSolutions\DotfuscatorCE\dotfuscatorCLI.exe&quot; Dotfuscator1.xml" />
-	</Target>
-
+  <Target Name="AfterBuild" Condition="'$(Configuration)' == 'Release'">
+    <Exec Command="&quot;$(DevEnvDir)Extensions\PreEmptiveSolutions\DotfuscatorCE\dotfuscatorCLI.exe&quot; Dotfuscator1.xml" />
+  </Target>
 </Project>

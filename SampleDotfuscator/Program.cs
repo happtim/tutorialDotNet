@@ -4,6 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/***
+
+    edit SampleDotfuscator.csproj
+
+	<Target Name="AfterBuild"  Condition="'$(Configuration)' == 'Release'" >
+		<Exec Command="&quot;$(DevEnvDir)Extensions\PreEmptiveSolutions\DotfuscatorCE\dotfuscatorCLI.exe&quot; Dotfuscator1.xml" />
+	</Target>
+
+***/
+
 namespace SampleDotfuscator
 {
     class Program
