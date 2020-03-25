@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="SampleDotfuscator.Binaries">
+            <Component Id="cmp1C8D8D1C4E82E9B3B68A7C360AF5C1CF" Guid="*">
+                <File Id="fil9912B18AAD021DDD8F82CAC457741340" Source="$(var.SampleDotfuscator.TargetDir)\SampleDotfuscator.exe" />
+            </Component>
+            <Component Id="cmpF7E030B18C1B3EF3E0A5ABDC5DDFBD71" Guid="*">
+                <File Id="filD421362C9B544A7741C71ECC919391CB" Source="$(var.SampleDotfuscator.TargetDir)\SampleDotfuscator.exe.config" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="SampleDotfuscator.Binaries">
+            <ComponentRef Id="cmp1C8D8D1C4E82E9B3B68A7C360AF5C1CF" />
+            <ComponentRef Id="cmpF7E030B18C1B3EF3E0A5ABDC5DDFBD71" />
+        </ComponentGroup>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="SampleDotfuscator.Symbols">
+            <Component Id="cmp7C06C5B41F67DE3FA146B63AFAA21047" Guid="*">
+                <File Id="fil448EABA11608ACC50E9F86D902C15010" Source="$(var.SampleDotfuscator.TargetDir)\SampleDotfuscator.pdb" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="SampleDotfuscator.Symbols">
+            <ComponentRef Id="cmp7C06C5B41F67DE3FA146B63AFAA21047" />
+        </ComponentGroup>
+    </Fragment>
+</Wix>
